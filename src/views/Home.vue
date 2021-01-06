@@ -1,8 +1,12 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-row align="center" justify="center" class="container px-8">
+    <v-col class="border ma-8" cols="12">
+      <v-card>
+
+      </v-card>
+      <HelloWorld />
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -16,3 +20,14 @@ export default {
   }
 }
 </script>
+
+<style>
+.border {
+  border: 5px solid white;
+  /* background-color: red; */
+}
+.container {
+  height:"100";
+  /* background-color: green; */
+}
+</style>
