@@ -1,10 +1,12 @@
 <template>
   <div>
-    <h2>
+    <br>
+    <h2 class="text-center">
       This is H2
     </h2>
-    <h3>
-      This is H3
+    <br>
+    <h3 class="text-center">
+      This is H3 dude
     </h3>
   </div>
 </template>

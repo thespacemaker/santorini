@@ -1,12 +1,11 @@
 <template>
-  <v-row align="center" justify="center" class="container px-8">
-    <v-col class="border ma-8" cols="12">
-      <Banner />
-      <HelloWorld />
-      <v-btn>Contact Us</v-btn
->    </v-col>
-  </v-row>
-  // omment for joe
+        <v-row align="center" justify="center" class="container px-8">
+            <v-col class="border ma-8" cols="12">
+              <Banner />
+              <HelloWorld />
+              <v-btn class="text-center">Contact Us</v-btn>
+            </v-col>
+          </v-row>
 </template>
 
 <script>
@@ -29,7 +28,7 @@ export default {
   /* background-color: red; */
 }
 .container {
-  height:"100";
+  height:"200";
   /* background-color: green; */
 }
 </style>
