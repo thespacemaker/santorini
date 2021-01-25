@@ -10,6 +10,8 @@
 
 <style>
 .test2{
-  /* background-color: blue; */
+  background-image: url("assets/happy2_updated.jpg");
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("assets/happy2_updated.jpg");
+  background-size:cover;
 }
 </style>
